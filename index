@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Sitodak</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #ffffff;
+        }
+        /* Teknik manipulasi dimensi untuk memotong spanduk Google */
+        iframe {
+            width: 100%;
+            /* Melebihkan tinggi bingkai untuk mendorong spanduk ke luar batas layar aktif */
+            height: calc(100% + 48px); 
+            /* Menarik spanduk ke atas zona buta layar */
+            margin-top: -48px;         
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Ganti isi src di bawah ini dengan tautan /exec milik GAS Anda -->
+    <iframe src="https://script.google.com/a/*/macros/s/AKfycbxrwp2H1_I6eDZf1SZlPRk2YzRpyscsTr2HECqENUrmKvEHsFZAqic_bzGLAXsvbK4j/exec"></iframe>
+
+</body>
+</html>
